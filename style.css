@@ -1,0 +1,118 @@
+* {
+    margin: 0 auto;
+    padding: 0;
+    font-family: Helvetica, monospace;
+}
+
+
+/* Wrapper */
+
+.wrapper {
+    background: url(../img/bg-head.jpg) center no-repeat;
+    max-width: 1920px;
+}
+
+/* Container */
+
+.container  {
+    max-width: 1480px;
+    @media (max-width: 767px);
+}
+
+/* Menu */
+
+.menu {
+    display: flex;
+    margin-top: -25px;
+    position: absolute;
+    right: 0;
+}
+
+.logo {
+    font-size: 30px;
+    font-weight: 900;
+    text-transform: uppercase;
+    padding-top: 50px;
+    color: #fff;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: 700;
+    padding-right: 60px;
+}
+
+.heading {
+    text-align: center;
+    margin-top: 280px;
+    font-size: 38px;
+    font-weight: 700;
+    color: #fff;
+}
+
+.subheading {
+    text-align: center;
+    margin-top: 10px;
+    font-size: 34px;
+    color: #fff;
+}
+
+.logo-mouse {
+    text-align: center;
+    margin-top: 300px;
+    padding: 100px;
+}
+
+.mouse {
+    width: 60px;
+    height: 60px;
+}
+
+
+.middle-container {
+    max-width: 1480px;
+    margin-top: 150px;
+    text-align: center;
+}
+
+.krea-head {
+    color: #303030;
+    font-size: 30px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.krea-subhead {
+    text-align: center;
+    font-size: 24px;
+    color: #757575;
+}
+
+hr {
+    width: 40px;
+    border-width: 1px;
+    border-color: #4a4a4a;
+    margin-top: 10px;
+}
+
+
+/*(<=1199px) CSS для ширины от 992px до 1199px*/
+@media (max-width: 1199px) {
+
+}
+
+/* (<=991px) CSS для ширины от 768px до 991px*/
+@media print {
+    .product-wraper .product-col {
+        width: 50%;
+    }
+}
+
+/* (<=768px) CSS для ширины от 576px до 767px */
+@media (max-width: 767px) {
+
+}
+
+/* (<=575px) CSS для ширины до 575px (включительно) */
+@media (max-width: 575px) {
