@@ -94,3 +94,24 @@ hr {
     border-color: #4a4a4a;
     margin-top: 10px;
 }
+
+
+/*(<=1199px) CSS для ширины от 992px до 1199px*/
+@media (max-width: 1199px) {
+
+}
+
+/* (<=991px) CSS для ширины от 768px до 991px*/
+@media print {
+    .product-wraper .product-col {
+        width: 50%;
+    }
+}
+
+/* (<=768px) CSS для ширины от 576px до 767px */
+@media (max-width: 767px) {
+
+}
+
+/* (<=575px) CSS для ширины до 575px (включительно) */
+@media (max-width: 575px) {
