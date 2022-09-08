@@ -1,118 +1,153 @@
 * {
-    margin: 0 auto;
+    font-family: Helvetica, sans-serif;
+    margin: 0;
     padding: 0;
-    font-family: Helvetica, monospace;
+    border: 0;
 }
-
-
-/* Wrapper */
 
 .wrapper {
-    background: url(../img/bg-head.jpg) center no-repeat;
-    max-width: 1920px;
+    background: url(/img/bg-head.jpg) center no-repeat;
 }
 
-/* Container */
-
-.container  {
-    max-width: 1480px;
-    @media (max-width: 767px);
+.container {
+    width: 100%;
+    max-width: 1440px;
+    margin: 0 auto;
 }
 
-/* Menu */
-
-.menu {
-    display: flex;
-    margin-top: -25px;
-    position: absolute;
-    right: 0;
-}
-
-.logo {
-    font-size: 30px;
-    font-weight: 900;
-    text-transform: uppercase;
+.header {
+    width: 100%;
     padding-top: 50px;
-    color: #fff;
 }
 
-a {
+.header-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-logo {
+    font-size: 30px;
+    font-weight: 800;
+    color: #fff;
+    text-transform: uppercase;
+    text-decoration: none;
+    transition: color .2s linear;
+}
+
+.header-logo:hover {
+    color: #d3d3d3;
+}
+.nav {
+    font-size:18px;
+    font-weight: 600;
+}
+
+.nav-link {
+    display: inline-block;
+    margin: 0 30px;
     text-decoration: none;
     color: #fff;
-    font-weight: 700;
-    padding-right: 60px;
+    transition: color .2s linear;
+}
+
+.nav-link:hover {
+    color: #d3d3d3;
 }
 
 .heading {
+    margin-top: 300px;
     text-align: center;
-    margin-top: 280px;
-    font-size: 38px;
-    font-weight: 700;
     color: #fff;
+    font-size: 38px;
+    font-weight: 600;
 }
 
 .subheading {
+    margin-top: 5px;
     text-align: center;
-    margin-top: 10px;
-    font-size: 34px;
     color: #fff;
+    font-size: 28px;
+
 }
 
-.logo-mouse {
+.heading-icon {
     text-align: center;
-    margin-top: 300px;
-    padding: 100px;
+    margin-top: 200px;
+    padding-bottom: 50px;
 }
 
 .mouse {
-    width: 60px;
-    height: 60px;
+    width: 48px;
+    height: 48px;
 }
 
-
-.middle-container {
-    max-width: 1480px;
-    margin-top: 150px;
-    text-align: center;
-}
-
-.krea-head {
-    color: #303030;
-    font-size: 30px;
-    font-weight: 600;
+.about-heading {
     text-transform: uppercase;
+    color: #303030;
+    font-size: 38px;
+    font-weight: 600;
+    margin-top: 100px;
+    text-align: center;
+
 }
 
-.krea-subhead {
+.about-subheading {
+    color: #747474;
     text-align: center;
-    font-size: 24px;
-    color: #757575;
+    font-size: 20px;
+    font-weight: 400;
 }
 
 hr {
-    width: 40px;
+    color: #000;
+    border: 1px solid;
     border-width: 1px;
-    border-color: #4a4a4a;
-    margin-top: 10px;
+    width: 30px;
+    margin: 10px auto;
 }
 
+.about-info {
+    margin-top: 130px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
 
-/*(<=1199px) CSS для ширины от 992px до 1199px*/
-@media (max-width: 1199px) {
+.about-block-1 {
+    text-align: center;
+}
+.manage {
+    width: 128px;
+    height: 128px;
+}
+
+.about-block-heading {
+    margin-top: 30px;
+    font-size: 26px;
+    font-weight: 700;
+    color: #747474;
+}
+
+.lorem {
+    margin: 40px;
+    text-align: start;
+    color: #5f5f5f;
+}
+
+.btn {
+    width: 200px;
+    padding: 15px;
+    border-radius: 30px;
+    border-color: #000;
+    margin: auto;
 
 }
 
-/* (<=991px) CSS для ширины от 768px до 991px*/
-@media print {
-    .product-wraper .product-col {
-        width: 50%;
-    }
+.btn-text {
+    text-transform: uppercase;
+    text-align: center;
+    color: #fff;
+    font-weight: 800;
+    font-size: 16px;
 }
-
-/* (<=768px) CSS для ширины от 576px до 767px */
-@media (max-width: 767px) {
-
-}
-
-/* (<=575px) CSS для ширины до 575px (включительно) */
-@media (max-width: 575px) {
