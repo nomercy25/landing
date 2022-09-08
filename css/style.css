@@ -4,7 +4,6 @@
     padding: 0;
     border: 0;
 }
-
 .wrapper {
     background: url(../landing/img/bg-head.jpg) center no-repeat;
     background-size: 100%;
@@ -194,7 +193,7 @@ hr-about {
 }
 
 .block {
-    background-color: #616161;
+    background: linear-gradient(to left, #8e2de2, #4a00e0, #8e2de2);
     width: 33%;
     height: 350px;
     margin: 1px;
