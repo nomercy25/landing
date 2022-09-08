@@ -197,8 +197,13 @@ hr-about {
     width: 33%;
     height: 350px;
     margin: 1px;
+    transition: color .5s;
+    background-size: 200%;
 }
 
+.block:hover {
+    background-position: right;
+}
 .block-text {
     font-size: 26px;
     color: #fff;
